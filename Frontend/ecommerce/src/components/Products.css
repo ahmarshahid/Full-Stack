@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+    font-family: 'Arial', sans-serif;
+}
+
+h2,
+h3 {
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    background: linear-gradient(135deg, #ffffff, #f1f1f1);
+    border-radius: 10px;
+}
+
+.product-title {
+    font-weight: bold;
+    color: #555;
+}
+
+button {
+    font-size: 14px;
+}
